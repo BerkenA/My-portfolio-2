@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './projects/Home';
 import JavascriptFrameworks from './projects/JavascriptFrameworks'
 import Holidaze from './projects/Holidaze'
 import AnemicHeroes from './projects/AnemicHeroes'
