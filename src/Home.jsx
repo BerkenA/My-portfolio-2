@@ -8,7 +8,7 @@ function Home() {
   const projects = [
     {
       title: "Anemic Heroes",
-      image: "/public/anemic-heroes-screenshot-min.jpg",
+      image: "/anemic-heroes-screenshot-min.jpg",
       description:
         "A dungeon crawler with quests and combat built in a 5-person team.",
       extraText:
@@ -18,7 +18,7 @@ function Home() {
     },
     {
       title: "Online Shop",
-      image: "/public/js-2-frameworks-pic.jpg",
+      image: "/js-2-frameworks-pic.jpg",
       description:
         "My first experience with React. This project taught me about components, states, props, and how to build fast, dynamic UIs.",
       extraText:
@@ -28,7 +28,7 @@ function Home() {
     },
     {
       title: "Holidaze",
-      image: "/public/holidaze-picture-portfolio-min.jpg",
+      image: "/holidaze-picture-portfolio-min.jpg",
       description:
         "This was my final exam project, Holidaze! a full-featured React booking app using TailwindCSS and date libraries for seamless vacations.",
       extraText:
@@ -96,7 +96,7 @@ function Home() {
 
             <div className="mePicture flex justify-center md:w-1/2">
               <img
-                src="/public/picture-me.jpg"
+                src="/picture-me.jpg"
                 alt="picture of me"
                 className="w-44 h-44 md:w-64 md:h-64 rounded-full border-4 border-gray-700 animate-pulse"
                 style={{ animationTimingFunction: "ease-in-out" }}
@@ -140,7 +140,7 @@ function Home() {
             <div className="knowMe flex flex-col-reverse md:flex-row md:items-center mt-24 gap-8 pb-4 w-full">
               <div className="picturePc flex justify-center md:w-1/2">
                 <img
-                  src="/public/computer-picture-white.jpg"
+                  src="/computer-picture-white.jpg"
                   alt="picture of a computer in beautiful surroundings"
                   className=" rounded-lg object-cover"
                 />
@@ -153,7 +153,7 @@ function Home() {
                   <br />
                   based in Oslo, Norway{" "}
                   <img
-                    src="/public/norway.png"
+                    src="/norway.png"
                     alt="norwegian flag"
                     className="inline-block w-6 h-6 ml-2 align-middle"
                   />
