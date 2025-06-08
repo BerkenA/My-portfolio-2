@@ -1,19 +1,16 @@
-import { Route, Routes } from 'react-router-dom';
-import Home from './projects/Home';
-import JavascriptFrameworks from './projects/JavascriptFrameworks'
-import Holidaze from './projects/Holidaze'
-import AnemicHeroes from './projects/AnemicHeroes'
-
+import { Route, Routes } from "react-router-dom";
+import Home from "./Home";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-      <Routes>
+    <Routes>
+      <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
-        <Route path="/projects/JavascriptFrameworks" element={<JavascriptFrameworks />} />
-        <Route path="/projects/AnemicHeroes" element={<AnemicHeroes />} />
-        <Route path="/projects/Holidaze" element={<Holidaze />} />
-      </Routes>
+      </Route>
+    </Routes>
   );
 }
+
 export default App;
 
